@@ -1,3 +1,7 @@
-const message: string = "hello bun";
+const sayHello = (name: string) => {
+    console.log(`hello ${name}`);
+};
 
-console.log(message);
+export {
+    sayHello
+}
